@@ -1,0 +1,143 @@
+/*
+
+Xilinx Vivado v2019.2 (64-bit) [Major: 2019, Minor: 2]
+SW Build: 2708876 on Wed Nov  6 21:40:23 MST 2019
+IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+
+Process ID (PID): 14760
+License: Customer
+
+Current time: 	Wed Jul 20 17:45:19 CST 2022
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 125
+Available screens: 1
+Available disk space: 49 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=15
+
+Java version: 	9.0.4 64-bit
+Java home: 	D:/vivado/Vivado/2019.2/tps/win64/jre9.0.4
+Java executable location: 	D:/vivado/Vivado/2019.2/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	guodl
+User home directory: C:/Users/guodl
+User working directory: C:/Users/guodl/Desktop/fpga_template_gbk_v1.00
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: D:/vivado/Vivado
+HDI_APPROOT: D:/vivado/Vivado/2019.2
+RDI_DATADIR: D:/vivado/Vivado/2019.2/data
+RDI_BINDIR: D:/vivado/Vivado/2019.2/bin
+
+Vivado preferences file location: C:/Users/guodl/AppData/Roaming/Xilinx/Vivado/2019.2/vivado.xml
+Vivado preferences directory: C:/Users/guodl/AppData/Roaming/Xilinx/Vivado/2019.2/
+Vivado layouts directory: C:/Users/guodl/AppData/Roaming/Xilinx/Vivado/2019.2/layouts
+PlanAhead jar file location: 	D:/vivado/Vivado/2019.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/guodl/Desktop/fpga_template_gbk_v1.00/vivado.log
+Vivado journal file location: 	C:/Users/guodl/Desktop/fpga_template_gbk_v1.00/vivado.jou
+Engine tmp dir: 	C:/Users/guodl/Desktop/fpga_template_gbk_v1.00/.Xil/Vivado-14760-DESKTOP-U9I3LUK
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/vivado/Vivado/2019.2/ids_lite/ISE
+XILINX_DSP: D:/vivado/Vivado/2019.2/ids_lite/ISE
+XILINX_PLANAHEAD: D:/vivado/Vivado/2019.2
+XILINX_VIVADO: D:/vivado/Vivado/2019.2
+XILINX_VIVADO_HLS: D:/vivado/Vivado/2019.2
+
+
+GUI allocated memory:	161 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 768 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 89 MB (+90323kb) [00:00:05]
+// [Engine Memory]: 617 MB (+495974kb) [00:00:05]
+// bB (cr):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\guodl\Desktop\fpga_template_gbk_v1.00\thinpad_top.xpr. Version: Vivado v2019.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/guodl/Desktop/fpga_template_gbk_v1.00/thinpad_top.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 864 MB (+225665kb) [00:00:10]
+// [GUI Memory]: 111 MB (+19167kb) [00:00:10]
+// WARNING: HEventQueue.dispatchEvent() is taking  2584 ms.
+// Tcl Message: open_project C:/Users/guodl/Desktop/fpga_template_gbk_v1.00/thinpad_top.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2019.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 904 MB. GUI used memory: 56 MB. Current time: 7/20/22, 5:45:23 PM CST
+// Project name: thinpad_top; location: C:/Users/guodl/Desktop/fpga_template_gbk_v1.00; part: xc7a200tfbg676-2
+// Tcl Message: open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:06 . Memory (MB): peak = 903.527 ; gain = 253.695 
+dismissDialog("Open Project"); // bB (cr)
+// a (cr): Critical Messages: addNotify
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 23 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (cr)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aL (aI, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, thinpad_top (thinpad_top.v)]", 3, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, thinpad_top (thinpad_top.v), ext_uart_r : async_receiver (async.v)]", 6, true, false, false, false, false, true); // B (F, cr) - Double Click - Node
+// [Engine Memory]: 907 MB (+130kb) [00:00:47]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, thinpad_top (thinpad_top.v), clock_gen : pll_example (pll_example.xci)]", 4, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, thinpad_top (thinpad_top.v), clock_gen : pll_example (pll_example.xci)]", 4, false, false, false, false, false, true); // B (F, cr) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// TclEventType: LOAD_FEATURE
+// O (cr):  Re-customize IP : addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 1,069 MB. GUI used memory: 60 MB. Current time: 7/20/22, 5:46:01 PM CST
+// [Engine Memory]: 1,090 MB (+144516kb) [00:00:52]
+// r (cr): Re-customize IP: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1569 ms.
+dismissDialog("Re-customize IP"); // O (cr)
+// [GUI Memory]: 120 MB (+3261kb) [00:04:00]
+// Elapsed time: 187 seconds
+dismissDialog("Re-customize IP"); // r (cr)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 17, false); // u (O, cr)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// bB (cr):  Starting Design Runs : addNotify
+selectButton("OptionPane.button", "OK"); // JButton (A, G)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/guodl/Desktop/fpga_template_gbk_v1.00/thinpad_top.srcs/sources_1/ip/pll_example/pll_example.xci' is already up-to-date 
+// Tcl Message: [Wed Jul 20 17:49:22 2022] Launched synth_1... Run output will be captured here: C:/Users/guodl/Desktop/fpga_template_gbk_v1.00/thinpad_top.runs/synth_1/runme.log [Wed Jul 20 17:49:22 2022] Launched impl_1... Run output will be captured here: C:/Users/guodl/Desktop/fpga_template_gbk_v1.00/thinpad_top.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bB (cr)
+selectCodeEditor("thinpad_top.v", 208, 251); // ch (w, cr)
+// TclEventType: RUN_STATUS_CHANGE
+// [GUI Memory]: 130 MB (+4767kb) [00:05:49]
